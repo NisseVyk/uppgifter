@@ -1,0 +1,19 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>150</y><w>180</w><h>280</h></coordinates><panel_attributes>bilar.py main()
+--
+billista[
+looping: Boolean
+--
+main()programmet</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>150</y><w>280</w><h>280</h></coordinates><panel_attributes>Bil
+--
+Fabrikat: str
+Color: str
+Lager: int
+--
+_init_constructor()
+setfabrikat( str )
+getfabrikat: str
+setcolor( str )
+getcolor: str
+getlager: str
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>260</y><w>60</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>40;10;10;10</additional_attributes></element></diagram>
