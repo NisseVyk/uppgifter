@@ -36,6 +36,10 @@ while looping:
     else:
         print("Tyvärr slut på vald bil")
 
+    print("-------------------------------")
+    print("\nLagersaldo före: " + lager_string + " st")
+    print("Lagersado efter : " + nyttlagersaldo_str + " st")
+
 
     svar = input("\n Vill du avsluta programmet? j/n : ")
     if (svar == 'j'):
